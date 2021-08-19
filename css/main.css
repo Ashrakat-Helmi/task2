@@ -1,0 +1,436 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.home {
+    width: 100%;
+
+}
+
+.home .nav {
+    width: 95%;
+    overflow: auto;
+    margin: 0px 20px;
+}
+
+.home .nav ul {
+    list-style-type: none;
+
+}
+
+.home .nav ul .name {
+    float: left;
+    color: rgb(163, 29, 29);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home .nav ul li {
+    float: right;
+    margin: 2px 5px 0px 0px;
+    padding: 5px;
+
+}
+
+.home .nav ul li a {
+    text-decoration: none;
+    color: rgb(5, 5, 4);
+}
+
+/* ============================================================== */
+
+.home .img1 {
+    width: 95%;
+    text-align: center;
+
+}
+
+.home .img1 img {
+    width: 100%;
+    height: 500px;
+    margin: 0px 20px;
+
+}
+
+/* ============================================================= */
+.home .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .cham {
+    width: 31%;
+
+    margin: 12px;
+
+}
+
+.home .cham img {
+    width: 42%;
+    display: inline;
+    height: 300px;
+    margin: 9px;
+}
+
+.home .cham .lo {
+    width: 15%;
+    float: left;
+    height: 50px;
+
+}
+
+.home .cham h1 {
+    font-size: 32px;
+    display: block;
+    margin: 15px 0px;
+    color: rgb(163, 29, 29);
+}
+
+.home .cham p {
+    margin: 20px 0px;
+    padding: 10px 5px;
+}
+
+.home .cham button {
+    margin: 0px 0px 10px 5px;
+    padding: 5px 7px;
+    background-color: rgb(163, 42, 42);
+}
+
+/* =================================================================================== */
+.caption {
+    width: 100%;
+    height: 30px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caption h2 {
+    font-size: 25px;
+    margin: 0px 0px 0px 30px;
+
+}
+
+.caption div {
+    background-color: rgb(163, 29, 29);
+    height: 10px;
+    width: 85%;
+
+    margin: 10px 40px 0px 0px;
+}
+
+/* ======================================================================================= */
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.player {
+    width: 22%;
+
+    margin: 10px 18px;
+    border: 2px solid gray;
+
+}
+
+.player img {
+    width: 100%;
+    display: inline;
+    height: 300px;
+
+}
+
+.player a {
+    font-size: 25px;
+    margin: 0px 0px 5px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* ==================================================================== */
+.about-header {
+    width: 95%;
+    margin: 20px 20px;
+    background-color: rgb(163, 29, 29);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-header .about {
+
+    width: 32%;
+
+    height: 200px;
+}
+
+.about-header .about h1 {
+    font-size: 32px;
+}
+
+.about-header .about a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0px 0px 0px 5px;
+}
+
+.about-header .about img {
+    width: 10%;
+    height: 50px;
+}
+
+/* ============================================================================================== */
+@media (max-width :950px) {
+    .home {
+        width: 100%;
+
+    }
+
+    .home .nav {
+        width: 95%;
+        overflow: auto;
+        margin: 0px 20px;
+
+    }
+
+    .home .nav ul .name {
+
+        font-size: 20px;
+    }
+
+    .home .nav ul li {
+
+        margin: 1.5px 4px 0px 0px;
+        padding: 4px;
+
+    }
+
+    /* ==================================================== */
+    .home .img1 {
+        width: 95%;
+
+
+    }
+
+    .home .img1 img {
+        width: 100%;
+        height: 400px;
+        margin: 0px 18px;
+
+    }
+
+    /* ================================================== */
+    .home .cham {
+        width: 45%;
+    }
+
+    .home .cham img {
+        width: 40%;
+        display: inline;
+        height: 300px;
+        margin: 9px;
+    }
+
+    .home .cham h1 {
+        font-size: 25px;
+    }
+
+    .home .cham p {
+        font-size: 14px;
+    }
+
+    /* =============================================== */
+    .caption h2 {
+        font-size: 20px;
+    }
+
+    .caption div {
+        margin: 10px 40px 0px 0px;
+        height: 8px;
+    }
+
+    /* ==================================================== */
+    .player {
+        width: 30%;
+    }
+
+    /* ========================= */
+    .about-header .about {
+
+        width: 49%;
+    }
+
+}
+
+@media (max-width :750px) {
+    .home {
+        width: 100%;
+
+    }
+
+    .home .nav {
+        width: 95%;
+        overflow: auto;
+        margin: 0px 12px;
+
+    }
+
+    .home .nav ul .name {
+
+        font-size: 15px;
+    }
+
+    .home .nav ul li {
+
+        margin: 1px 3px 0px 0px;
+        padding: 3px;
+        font-size: 15px;
+
+
+    }
+
+    /* ================================== */
+    .home .img1 {
+        width: 95%;
+
+
+    }
+
+    .home .img1 img {
+        width: 100%;
+        height: 250px;
+        margin: 0px 10px;
+
+    }
+
+    /* ===================================== */
+    .home .cham {
+        width: 45%;
+
+    }
+
+    .home .cham img {
+        width: 40%;
+        display: inline;
+        height: 150px;
+        margin: 9px;
+    }
+
+    .home .cham h1 {
+        font-size: 20px;
+    }
+
+    .home .cham p {
+        font-size: 10px;
+    }
+
+    /* ================================ */
+
+    .caption h2 {
+        font-size: 15px;
+    }
+
+    .caption div {
+        margin: 8px 40px 0px 4px;
+        height: 6px;
+    }
+
+    /* ====================================================== */
+    .player {
+        width: 49%;
+    }
+
+    /* ========================= */
+    .about-header .about {
+
+        width: 90%;
+    }
+
+
+}
+
+@media (max-width :600px) {
+    .home .nav {
+        width: 95%;
+        overflow: auto;
+        margin: 0px 8px;
+
+    }
+
+    .home .nav ul .name {
+
+        font-size: 10px;
+    }
+
+    .home .nav ul li {
+
+        margin: 0.5px 2px 0px 0px;
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    /* ========================================== */
+    .home .img1 {
+        width: 95%;
+
+
+    }
+
+    .home .img1 img {
+        width: 100%;
+        height: 150px;
+        margin: 0px 5px;
+
+    }
+
+    /* ======================================= */
+    .home .cham {
+        width: 85%;
+
+
+
+    }
+
+    .home .cham img {
+        width: 40%;
+        display: inline;
+        height: 150px;
+        margin: 9px;
+    }
+
+    .home .cham h1 {
+        font-size: 18px;
+    }
+
+    .home .cham p {
+        font-size: 10px;
+    }
+
+    /* ============================ */
+    .caption h2 {
+        font-size: 10px;
+    }
+
+    .caption div {
+        margin: 6px 40px 0px 2px;
+        height: 4px;
+    }
+
+    /* ========================================= */
+    .player {
+        width: 90%;
+    }
+
+    /* ========================= */
+    .about-header .about {
+
+        width: 90%;
+    }
+
+}
